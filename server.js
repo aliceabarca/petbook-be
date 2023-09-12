@@ -10,7 +10,7 @@ app.locals.title = 'Pet Book';
 
 app.locals.pets = [
   {
-    id: '1', 
+    id: 1, 
     petName: 'Oreo', 
     petNickname: 'Oreo', 
     petAge: '2.5', 
@@ -19,7 +19,7 @@ app.locals.pets = [
     type: 'Cat'
   },
   {
-    id: '2', 
+    id: 2, 
     petName: 'Duke', 
     petNickname: 'Doodle-bee', 
     petAge: '19', 
@@ -28,7 +28,7 @@ app.locals.pets = [
     type: 'Dog'
   },
   {
-    id: '3',
+    id: 3,
     petName: 'Pluto', 
     petNickname: 'Pluto', 
     petAge: '1', 
@@ -37,7 +37,7 @@ app.locals.pets = [
     type: 'Cat'
   },
   {
-    id: '4', 
+    id: 4, 
     petName: 'Rocco', 
     petNickname: 'Rocco', 
     petAge: '1', 
