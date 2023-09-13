@@ -72,7 +72,7 @@ app.post('/api/v1/pets', (request, response) => {
   const id = Date.now();
   const pet = request.body;
 
-  for (let requiredParameter of ['name', 'nickname']) {
+  for (let requiredParameter of ['name', 'ownersName']) {
     if (!pet[requiredParameter]) {
       response
         .status(422)
