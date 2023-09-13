@@ -11,119 +11,119 @@ app.locals.title = 'Pet Book';
 app.locals.pets = [
   {
     id: 1, 
-    petName: 'Oreo', 
-    petNickname: 'Oreo', 
-    petAge: 2.5, 
-    petFunFact: 'hes had 2 types of tape worms', 
-    petOwnersName: 'Judy',
+    name: 'Oreo', 
+    nickname: 'Oreo', 
+    age: 2.5, 
+    funFact: 'hes had 2 types of tape worms', 
+    ownersName: 'Judy',
     type: 'Cat'
   },
   {
     id: 2, 
-    petName: 'Duke', 
-    petNickname: 'Doodle-bee', 
-    petAge: 19, 
-    petFunFact: 'He likes to go for car rides', 
-    petOwnersName: 'Alex',
+    name: 'Duke', 
+    nickname: 'Doodle-bee', 
+    age: 19, 
+    funFact: 'He likes to go for car rides', 
+    ownersName: 'Alex',
     type: 'Dog'
   },
   {
     id: 3,
-    petName: 'Pluto', 
-    petNickname: 'Pluto', 
-    petAge: 1, 
-    petFunFact: 'hes really fun', 
-    petOwnersName: 'Paulina',
+    name: 'Pluto', 
+    nickname: 'Pluto', 
+    age: 1, 
+    funFact: 'hes really fun', 
+    ownersName: 'Paulina',
     type: 'Cat'
   },
   {
     id: 4, 
-    petName: 'Rocco', 
-    petNickname: 'Rocco', 
-    petAge: 1, 
-    petFunFact: 'hes really really fun', 
-    petOwnersName: 'Alice',
+    name: 'Rocco', 
+    nickname: 'Rocco', 
+    age: 1, 
+    funFact: 'hes really really fun', 
+    ownersName: 'Alice',
     type: 'Dog'
   },
   {
     id: 5, 
-    petName: 'Dusty', 
-    petNickname: 'Dustin Dustwald Dusty Weasel Wensloff', 
-    petAge: 5, 
-    petFunFact: 'He loves to sploot in a creek', 
-    petOwnersName: 'Jocelyn Wensloff',
+    name: 'Dusty', 
+    nickname: 'Dustin Dustwald Dusty Weasel Wensloff', 
+    age: 5, 
+    funFact: 'He loves to sploot in a creek', 
+    ownersName: 'Jocelyn Wensloff',
     type: 'Dog'
   },
   {
     id: 6, 
-    petName: 'Ivan', 
-    petNickname: 'Bubba/Baby', 
-    petAge: 10, 
-    petFunFact: 'He loves toilet paper!', 
-    petOwnersName: 'Banjamin Hatch',
+    name: 'Ivan', 
+    nickname: 'Bubba/Baby', 
+    age: 10, 
+    funFact: 'He loves toilet paper!', 
+    ownersName: 'Banjamin Hatch',
     type: 'Dog'
   },
   {
     id: 7, 
-    petName: 'Sentinel', 
-    petNickname: 'Sen', 
-    petAge: 5, 
-    petFunFact: 'Her preferred toy is mesh potato bags', 
-    petOwnersName: 'Renee Pinna',
+    name: 'Sentinel', 
+    nickname: 'Sen', 
+    age: 5, 
+    funFact: 'Her preferred toy is mesh potato bags', 
+    ownersName: 'Renee Pinna',
     type: 'Cat'
   },
   {
     id: 8, 
-    petName: 'Khaleesi', 
-    petNickname: 'Leesi/Khalees', 
-    petAge: 7, 
-    petFunFact: 'She doesn\'t like citrus fruit but will eat anything else', 
-    petOwnersName: 'Josh Bennett',
+    name: 'Khaleesi', 
+    nickname: 'Leesi/Khalees', 
+    age: 7, 
+    funFact: 'She doesn\'t like citrus fruit but will eat anything else', 
+    ownersName: 'Josh Bennett',
     type: 'Dog'
   },
   {
     id: 9, 
-    petName: 'Clyde', 
-    petNickname: 'Clyborg, the glide, Clyderman, Clydawg, etc.', 
-    petAge: 1.5, 
-    petFunFact: 'He\'s the runt of his litter!', 
-    petOwnersName: 'Avery Berryman',
+    name: 'Clyde', 
+    nickname: 'Clyborg, the glide, Clyderman, Clydawg, etc.', 
+    age: 1.5, 
+    funFact: 'He\'s the runt of his litter!', 
+    ownersName: 'Avery Berryman',
     type: 'Dog'
   },
   {
     id: 10, 
-    petName: 'Tir', 
-    petNickname: '', 
-    petAge: null, 
-    petFunFact: '', 
-    petOwnersName: 'Parvin Sattorova',
+    name: 'Tir', 
+    nickname: '', 
+    age: null, 
+    funFact: '', 
+    ownersName: 'Parvin Sattorova',
     type: 'Dog'
   },
   {
     id: 11, 
-    petName: 'Echo', 
-    petNickname: 'echo whecko', 
-    petAge: 3, 
-    petFunFact: 'Echo loves to play outside with the chickens', 
-    petOwnersName: 'Scotty Brown',
+    name: 'Echo', 
+    nickname: 'echo whecko', 
+    age: 3, 
+    funFact: 'Echo loves to play outside with the chickens', 
+    ownersName: 'Scotty Brown',
     type: 'Dog'
   },
   {
     id: 12, 
-    petName: 'Rocky', 
-    petNickname: 'Rockaroo', 
-    petAge: 13, 
-    petFunFact: 'he loves to sleep under the deck during the day', 
-    petOwnersName: 'Jen Ziel',
+    name: 'Rocky', 
+    nickname: 'Rockaroo', 
+    age: 13, 
+    funFact: 'he loves to sleep under the deck during the day', 
+    ownersName: 'Jen Ziel',
     type: 'Dog'
   },
   {
     id: 13, 
-    petName: 'Bailey', 
-    petNickname: 'bear boyyyy/sweet man/honey boy', 
-    petAge: 10, 
-    petFunFact: 'bailey has two metal knees', 
-    petOwnersName: 'Lauren DeLaRosa',
+    name: 'Bailey', 
+    nickname: 'bear boyyyy/sweet man/honey boy', 
+    age: 10, 
+    funFact: 'bailey has two metal knees', 
+    ownersName: 'Lauren DeLaRosa',
     type: 'Dog'
   },
 ];
@@ -153,7 +153,7 @@ app.post('/api/v1/pets', (request, response) => {
   const id = Date.now();
   const pet = request.body;
 
-  for (let requiredParameter of ['petName', 'petNickname']) {
+  for (let requiredParameter of ['name', 'ownersName']) {
     if (!pet[requiredParameter]) {
       response
         .status(422)
@@ -162,9 +162,9 @@ app.post('/api/v1/pets', (request, response) => {
     }
   }
 
-  const { petName, petNickname, petAge, petFunFact, petOwnersName, type } = pet;
-  app.locals.pets.push({ id, petName, petNickname, petAge, petFunFact, petOwnersName, type});
-  response.status(201).json({ id, petName, petNickname, petAge, petFunFact, petOwnersName, type});
+  const { name, nickname, age, funFact, ownersName, type } = pet;
+  app.locals.pets.push({ id, name, nickname, age, funFact, ownersName, type});
+  response.status(201).json({ id, name, nickname, age, funFact, ownersName, type});
 });
 
 app.listen(app.get('port'), () => {
