@@ -60,13 +60,18 @@ app.get('/api/v1/pets', (request, response) => {
 
 app.get('/api/v1/pets/:id', (request, response) => {
   const id = request.params.id
+
   console.log('request.params', request)
+
   const foundPet = app.locals.pets.find((pet) => {
     console.log('check backend data type', pet.id)
+
     pet.id == id})
 
   console.log('incoming id', id)
+
   console.log(foundPet)
+  
   if (!foundPet) {
     return response.sendStatus(404);
   }
