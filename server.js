@@ -59,13 +59,19 @@ app.get('/api/v1/pets', (request, response) => {
 });
 
 app.get('/api/v1/pets/:id', (request, response) => {
-  const { id } = request.params;
-  const pet = app.locals.pets.find(pet => pet.id === id);
-  if (!pet) {
+  const id = request.params.id
+  console.log('request.params', request)
+  const foundPet = app.locals.pets.find((pet) => {
+    console.log('check backend data type', pet.id)
+    pet.id == id})
+
+  console.log('incoming id', id)
+  console.log(foundPet)
+  if (!foundPet) {
     return response.sendStatus(404);
   }
 
-  response.status(200).json(pet);
+  response.status(200).json(foundPet);
 });
 
 app.post('/api/v1/pets', (request, response) => {
