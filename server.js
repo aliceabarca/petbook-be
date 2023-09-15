@@ -141,7 +141,7 @@ app.get('/api/v1/pets', (request, response) => {
 
 app.get('/api/v1/pets/:id', (request, response) => {
   const { id } = request.params;
-  const pet = app.locals.pets.find(pet => pet.id === id);
+  const pet = app.locals.pets.find(pet => pet.id === parseIn(id));
   if (!pet) {
     return response.sendStatus(404);
   }
@@ -157,7 +157,7 @@ app.post('/api/v1/pets', (request, response) => {
     if (!pet[requiredParameter]) {
       response
         .status(422)
-        .send({ error: `Expected format: { name: <String>, type: <String> }. You're missing a "${requiredParameter}" property.` });
+        .send({ error: `Expected format: { name: <String>, ownersName: <String> }. You're missing a "${requiredParameter}" property.` });
       return
     }
   }
