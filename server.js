@@ -77,7 +77,7 @@ app.locals.pets = [
     name: 'Khaleesi', 
     nickname: 'Leesi/Khalees', 
     age: 7, 
-    funFact: 'She doesn\'t like citrus fruit but will eat anything else', 
+    funFact: 'She doesn\'t like citrus fruit but will eat anything else',
     ownersName: 'Josh Bennett',
     type: 'Dog'
   },
@@ -126,9 +126,8 @@ app.locals.pets = [
     ownersName: 'Lauren DeLaRosa',
     type: 'Dog'
   },
-];
-
-
+]
+ 
 app.get('/', (request, response) => {
   response.send('Oh hey Pet Book');
 });
@@ -141,7 +140,7 @@ app.get('/api/v1/pets', (request, response) => {
 
 app.get('/api/v1/pets/:id', (request, response) => {
   const { id } = request.params;
-  const pet = app.locals.pets.find(pet => pet.id === id);
+  const pet = app.locals.pets.find(pet => pet.id === parseInt(id));
   if (!pet) {
     return response.sendStatus(404);
   }
@@ -157,7 +156,7 @@ app.post('/api/v1/pets', (request, response) => {
     if (!pet[requiredParameter]) {
       response
         .status(422)
-        .send({ error: `Expected format: { name: <String>, type: <String> }. You're missing a "${requiredParameter}" property.` });
+        .send({ error: `Expected format: { name: <String>, ownersName: <String> }. You're missing a "${requiredParameter}" property.` });
       return
     }
   }
