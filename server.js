@@ -140,7 +140,7 @@ app.get('/api/v1/pets', (request, response) => {
 
 app.get('/api/v1/pets/:id', (request, response) => {
   const { id } = request.params;
-  const pet = app.locals.pets.find(pet => pet.id === parseIn(id));
+  const pet = app.locals.pets.find(pet => pet.id === parseInt(id));
   if (!pet) {
     return response.sendStatus(404);
   }
