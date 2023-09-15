@@ -77,7 +77,7 @@ app.locals.pets = [
     name: 'Khaleesi', 
     nickname: 'Leesi/Khalees', 
     age: 7, 
-    funFact: 'She doesn\'t like citrus fruit but will eat anything else', 
+    funFact: 'She doesn\'t like citrus fruit but will eat anything else',
     ownersName: 'Josh Bennett',
     type: 'Dog'
   },
@@ -126,9 +126,8 @@ app.locals.pets = [
     ownersName: 'Lauren DeLaRosa',
     type: 'Dog'
   },
-];
-
-
+]
+ 
 app.get('/', (request, response) => {
   response.send('Oh hey Pet Book');
 });
