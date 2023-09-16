@@ -4,7 +4,7 @@ let pets = [
     name: 'Oreo', 
     nickname: 'Oreo', 
     age: 2.5, 
-    funFact: 'hes had 2 types of tape worms', 
+    funFact: 'he\'s had 2 types of tape worms', 
     ownersName: 'Judy',
     type: 'Cat'
   },
@@ -22,7 +22,7 @@ let pets = [
     name: 'Pluto', 
     nickname: 'Pluto', 
     age: 1, 
-    funFact: 'hes really fun', 
+    funFact: 'he\'s really fun', 
     ownersName: 'Paulina',
     type: 'Cat'
   },
@@ -31,7 +31,7 @@ let pets = [
     name: 'Rocco', 
     nickname: 'Rocco', 
     age: 1, 
-    funFact: 'hes really really fun', 
+    funFact: 'he\'s really really fun', 
     ownersName: 'Alice',
     type: 'Dog'
   },
