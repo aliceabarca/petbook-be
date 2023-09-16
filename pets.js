@@ -4,7 +4,7 @@ let pets = [
     name: 'Oreo', 
     nickname: 'Oreo', 
     age: 2.5, 
-    funFact: 'hes had 2 types of tape worms', 
+    funFact: 'He\'s had 2 types of tape worms', 
     ownersName: 'Judy',
     type: 'Cat'
   },
@@ -22,7 +22,7 @@ let pets = [
     name: 'Pluto', 
     nickname: 'Pluto', 
     age: 1, 
-    funFact: 'hes really fun', 
+    funFact: 'He\'s really fun', 
     ownersName: 'Paulina',
     type: 'Cat'
   },
@@ -31,7 +31,7 @@ let pets = [
     name: 'Rocco', 
     nickname: 'Rocco', 
     age: 1, 
-    funFact: 'hes really really fun', 
+    funFact: 'He\'s really really fun', 
     ownersName: 'Alice',
     type: 'Dog'
   },
@@ -92,7 +92,7 @@ let pets = [
   {
     id: 11, 
     name: 'Echo', 
-    nickname: 'echo whecko', 
+    nickname: 'Echo Whecko', 
     age: 3, 
     funFact: 'Echo loves to play outside with the chickens', 
     ownersName: 'Scotty Brown',
@@ -103,16 +103,16 @@ let pets = [
     name: 'Rocky', 
     nickname: 'Rockaroo', 
     age: 13, 
-    funFact: 'he loves to sleep under the deck during the day', 
+    funFact: 'He loves to sleep under the deck during the day', 
     ownersName: 'Jen Ziel',
     type: 'Dog'
   },
   {
     id: 13, 
     name: 'Bailey', 
-    nickname: 'bear boyyyy/sweet man/honey boy', 
+    nickname: 'Bear boyyyy/sweet man/honey boy', 
     age: 10, 
-    funFact: 'bailey has two metal knees', 
+    funFact: 'Bailey has two metal knees', 
     ownersName: 'Lauren DeLaRosa',
     type: 'Dog'
   },
