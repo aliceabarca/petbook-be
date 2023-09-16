@@ -140,6 +140,9 @@ app.get('/api/v1/pets', (request, response) => {
 
 app.get('/api/v1/pets/:id', (request, response) => {
   const { id } = request.params;
+
+  console.log('hi')
+
   const pet = app.locals.pets.find(pet => pet.id === parseInt(id));
   if (!pet) {
     return response.sendStatus(404);
@@ -166,7 +169,24 @@ app.post('/api/v1/pets', (request, response) => {
   response.status(201).json({ id, name, nickname, age, funFact, ownersName, type});
 });
 
+app.delete('/api/v1/pets/:id', (request, response) => {
+  const { id } = request.params;
+
+  const petToDelete = app.locals.pets.find((pet) => {
+    return pet.id === parseInt(id)
+  });
+
+  if (!petToDelete) {
+    return response.sendStatus(404);
+  }
+
+  const filteredPets = app.locals.pets.filter(pet => pet.id != id);
+
+  app.locals.pets = filteredPets
+
+  response.sendStatus(204);
+});
+
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
 });
-
