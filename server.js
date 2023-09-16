@@ -127,10 +127,6 @@ app.locals.pets = [
     type: 'Dog'
   },
 ]
- 
-app.get('/', (request, response) => {
-  response.send('Oh hey Pet Book');
-});
 
 app.get('/api/v1/pets', (request, response) => {
   const pets = app.locals.pets;
